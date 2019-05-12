@@ -1,6 +1,7 @@
 #include<stdio.h>
 void sorting_function(int *arr, int N)
-{
+{ 
+
 int i, j, k, t ;
 for (k=N/2;k>0; k=k/2)
 {
@@ -10,6 +11,7 @@ for(j=i-k; j>=0; j=j-k)
 {
 if (arr[j+k] >= arr[j])
 break;
+
 else
 {
 t=arr[j];
