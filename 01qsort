@@ -8,6 +8,7 @@ double quickSort(int *numbers, int left, int right)
   pivot = numbers[left];
   while (left < right)
   {
+  
     while ((numbers[right] >= pivot) && (left < right)){
       right--;        
     }
