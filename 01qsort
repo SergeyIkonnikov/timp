@@ -1,6 +1,7 @@
 #include <stdio.h>
 double quickSort(int *numbers, int left, int right)
-{
+{  
+
   int pivot; 
   int l_hold = left;
   int r_hold = right;
