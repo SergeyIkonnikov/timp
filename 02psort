@@ -4,8 +4,10 @@
 #include <malloc.h>
 double count = 0;
 
+
 void siftDown(int *numbers, int root, int bottom)
 {
+
   int maxChild;
   int done = 0;
   
